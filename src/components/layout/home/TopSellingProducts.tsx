@@ -6,7 +6,20 @@ import { Star } from "lucide-react";
 import topSellingProductsData from "@/data/topSellingProducts.json";
 
 const TopSellingProducts = () => {
-  const { topSellingProducts } = topSellingProductsData;
+  const { topSellingProducts, sectionVisible } = topSellingProductsData;
+
+  // Don't render the entire section if sectionVisible is false
+  if (!sectionVisible) {
+    return null;
+  }
+
+  // Filter out hidden products
+  const visibleProducts = topSellingProducts.products.filter(product => product.visible);
+
+  // Don't render if no products are visible
+  if (visibleProducts.length === 0) {
+    return null;
+  }
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
@@ -33,7 +46,7 @@ const TopSellingProducts = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-        {topSellingProducts.products.map((product) => (
+        {visibleProducts.map((product) => (
           <div
             key={product.id}
             className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 hover:scale-105"

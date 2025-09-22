@@ -10,16 +10,29 @@ const iconMap = {
 };
 
 const ActionButtons = () => {
-  const { actionButtons } = actionButtonsData;
+  const { actionButtons, sectionVisible } = actionButtonsData;
 
   const handleClick = (href: string) => {
     window.open(href, "_blank");
   };
 
+  // Don't render the entire section if sectionVisible is false
+  if (!sectionVisible) {
+    return null;
+  }
+
+  // Filter out hidden buttons
+  const visibleButtons = actionButtons.filter(button => button.visible);
+
+  // Don't render if no buttons are visible
+  if (visibleButtons.length === 0) {
+    return null;
+  }
+
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-6">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {actionButtons.map((button) => {
+        {visibleButtons.map((button) => {
           const IconComponent = iconMap[button.icon as keyof typeof iconMap];
           
           return (

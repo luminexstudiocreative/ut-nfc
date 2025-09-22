@@ -6,7 +6,12 @@ import shareButtonData from "@/data/shareButton.json";
 
 const FixedShareButton = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const { shareButton } = shareButtonData;
+  const { shareButton, sectionVisible } = shareButtonData;
+
+  // Don't render if section is not visible
+  if (!sectionVisible || !shareButton.visible) {
+    return null;
+  }
 
   const handleShare = async () => {
     if (navigator.share) {

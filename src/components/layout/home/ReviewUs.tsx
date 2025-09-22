@@ -5,7 +5,12 @@ import { Star } from "lucide-react";
 import reviewData from "@/data/review.json";
 
 const ReviewUs = () => {
-  const { review } = reviewData;
+  const { review, sectionVisible } = reviewData;
+
+  // Don't render the entire section if sectionVisible is false
+  if (!sectionVisible || !review.visible) {
+    return null;
+  }
 
   const handleReviewClick = () => {
     window.open(review.googleReviewUrl, "_blank");

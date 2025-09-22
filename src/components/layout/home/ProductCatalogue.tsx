@@ -5,7 +5,20 @@ import Image from "next/image";
 import productCatalogueData from "@/data/productCatalogue.json";
 
 const ProductCatalogue = () => {
-  const { productCatalogue } = productCatalogueData;
+  const { productCatalogue, sectionVisible } = productCatalogueData;
+
+  // Don't render the entire section if sectionVisible is false
+  if (!sectionVisible) {
+    return null;
+  }
+
+  // Filter out hidden products
+  const visibleProducts = productCatalogue.products.filter(product => product.visible);
+
+  // Don't render if no products are visible
+  if (visibleProducts.length === 0) {
+    return null;
+  }
 
   return (
     <div className="w-full max-w-6xl mx-auto px-4 py-8">
@@ -19,7 +32,7 @@ const ProductCatalogue = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {productCatalogue.products.map((product) => (
+        {visibleProducts.map((product) => (
           <div
             key={product.id}
             className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-105"

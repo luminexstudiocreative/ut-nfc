@@ -1,4 +1,5 @@
 {
+  "sectionVisible": true,
   "actionButtons": [
     {
       "id": "locate",
@@ -8,7 +9,8 @@
       "bgColor": "bg-blue-600",
       "hoverColor": "hover:bg-blue-700",
       "textColor": "text-white",
-      "description": "Find our location on Google Maps"
+      "description": "Find our location on Google Maps",
+      "visible": true
     },
     {
       "id": "upi",
@@ -18,7 +20,8 @@
       "bgColor": "bg-purple-600",
       "hoverColor": "hover:bg-purple-700",
       "textColor": "text-white",
-      "description": "Quick payment via UPI"
+      "description": "Quick payment via UPI",
+      "visible": true
     }
   ]
 }
