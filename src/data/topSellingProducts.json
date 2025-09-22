@@ -1,0 +1,48 @@
+{
+  "topSellingProducts": {
+    "title": "Top Selling Products",
+    "subtitle": "Our most popular fasteners",
+    "products": [
+      {
+        "id": 1,
+        "name": "M8 Hex Bolts",
+        "price": "₹15/piece",
+        "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg",
+        "rating": 4.9,
+        "soldCount": "500+ sold"
+      },
+      {
+        "id": 2,
+        "name": "Stainless Steel Nuts",
+        "price": "₹8/piece",
+        "image": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg",
+        "rating": 4.8,
+        "soldCount": "750+ sold"
+      },
+      {
+        "id": 3,
+        "name": "Spring Washers",
+        "price": "₹3/piece",
+        "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg",
+        "rating": 4.7,
+        "soldCount": "1000+ sold"
+      },
+      {
+        "id": 4,
+        "name": "Allen Screws",
+        "price": "₹12/piece",
+        "image": "https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg",
+        "rating": 4.9,
+        "soldCount": "400+ sold"
+      },
+      {
+        "id": 5,
+        "name": "Lock Washers",
+        "price": "₹5/piece",
+        "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
+        "rating": 4.6,
+        "soldCount": "600+ sold"
+      }
+    ]
+  }
+}

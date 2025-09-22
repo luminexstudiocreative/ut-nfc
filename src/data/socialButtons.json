@@ -1,0 +1,40 @@
+{
+  "socialButtons": [
+    {
+      "id": "call",
+      "label": "Call",
+      "icon": "Phone",
+      "href": "tel:+919876543210",
+      "bgColor": "bg-green-500",
+      "hoverColor": "hover:bg-green-600",
+      "textColor": "text-white"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "icon": "Mail",
+      "href": "mailto:info@aliidrisenterprises.com",
+      "bgColor": "bg-blue-500",
+      "hoverColor": "hover:bg-blue-600",
+      "textColor": "text-white"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "icon": "MessageCircle",
+      "href": "https://wa.me/919876543210",
+      "bgColor": "bg-green-600",
+      "hoverColor": "hover:bg-green-700",
+      "textColor": "text-white"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "icon": "Instagram",
+      "href": "https://instagram.com/aliidrisenterprises",
+      "bgColor": "bg-pink-500",
+      "hoverColor": "hover:bg-pink-600",
+      "textColor": "text-white"
+    }
+  ]
+}

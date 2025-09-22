@@ -1,0 +1,56 @@
+{
+  "contactCard": {
+    "title": "Contact Me",
+    "subtitle": "Get in touch for all your fastener needs",
+    "contacts": [
+      {
+        "id": "phone",
+        "label": "Call Us",
+        "value": "+91 98765 43210",
+        "href": "tel:+919876543210",
+        "icon": "Phone",
+        "bgColor": "bg-green-500"
+      },
+      {
+        "id": "whatsapp",
+        "label": "WhatsApp",
+        "value": "+91 98765 43210",
+        "href": "https://wa.me/919876543210",
+        "icon": "MessageCircle",
+        "bgColor": "bg-green-600"
+      },
+      {
+        "id": "email",
+        "label": "Email",
+        "value": "info@aliidrisenterprises.com",
+        "href": "mailto:info@aliidrisenterprises.com",
+        "icon": "Mail",
+        "bgColor": "bg-blue-500"
+      },
+      {
+        "id": "instagram",
+        "label": "Instagram",
+        "value": "@aliidrisenterprises",
+        "href": "https://instagram.com/aliidrisenterprises",
+        "icon": "Instagram",
+        "bgColor": "bg-pink-500"
+      },
+      {
+        "id": "facebook",
+        "label": "Facebook",
+        "value": "Ali Idris Enterprises",
+        "href": "https://facebook.com/aliidrisenterprises",
+        "icon": "Facebook",
+        "bgColor": "bg-blue-600"
+      },
+      {
+        "id": "website",
+        "label": "Website",
+        "value": "www.aliidrisenterprises.com",
+        "href": "https://www.aliidrisenterprises.com",
+        "icon": "Globe",
+        "bgColor": "bg-gray-600"
+      }
+    ]
+  }
+}

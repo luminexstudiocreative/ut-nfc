@@ -1,0 +1,29 @@
+{
+  "productCatalogue": {
+    "title": "Product Catalogue",
+    "subtitle": "Premium Quality Fasteners",
+    "products": [
+      {
+        "id": 1,
+        "title": "Stainless Steel Bolts",
+        "description": "High-grade stainless steel bolts for industrial and construction use. Corrosion resistant and durable.",
+        "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg",
+        "category": "Bolts & Screws"
+      },
+      {
+        "id": 2,
+        "title": "Heavy Duty Nuts",
+        "description": "Premium quality nuts designed for heavy-duty applications. Available in various sizes and materials.",
+        "image": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg",
+        "category": "Nuts & Washers"
+      },
+      {
+        "id": 3,
+        "title": "Industrial Washers",
+        "description": "High-performance washers for industrial machinery and construction projects. Multiple specifications available.",
+        "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg",
+        "category": "Washers & Rings"
+      }
+    ]
+  }
+}

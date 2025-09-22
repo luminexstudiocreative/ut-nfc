@@ -1,0 +1,13 @@
+{
+  "review": {
+    "title": "Review Us on Google",
+    "description": "Help us improve by sharing your experience",
+    "googleReviewUrl": "https://g.page/r/YOUR_GOOGLE_BUSINESS_ID/review",
+    "rating": 4.8,
+    "totalReviews": 156,
+    "icon": "Star",
+    "bgColor": "bg-yellow-500",
+    "hoverColor": "hover:bg-yellow-600",
+    "textColor": "text-white"
+  }
+}

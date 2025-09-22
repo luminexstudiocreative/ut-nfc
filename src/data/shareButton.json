@@ -1,0 +1,13 @@
+{
+  "shareButton": {
+    "label": "Share",
+    "title": "Share Our Business",
+    "description": "Help us grow by sharing with your network",
+    "shareText": "Check out Ali Idris Enterprises - Premium Quality Fasteners",
+    "shareUrl": "https://www.aliidrisenterprises.com",
+    "icon": "Share2",
+    "bgColor": "bg-indigo-600",
+    "hoverColor": "hover:bg-indigo-700",
+    "textColor": "text-white"
+  }
+}
