@@ -16,7 +16,7 @@
       "id": "upi",
       "label": "Pay with UPI",
       "icon": "CreditCard",
-      "href": "upi://pay?pa=aliasgardeesawala@oksbi.com&pn=Mohammed%20Jhansi&cu=INR&tn=Payment%20for%20order",
+      "href": "upi://pay?pa=aliasgardeesawala%40oksbi.com&pn=aliasgar%20deesawala&cu=INR&tn=Payment%20for%20order",
       "bgColor": "bg-purple-600",
       "hoverColor": "hover:bg-purple-700",
       "textColor": "text-white",
