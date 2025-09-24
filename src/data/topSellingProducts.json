@@ -8,7 +8,7 @@
         "id": 1,
         "name": "J-Shape Bolt",
         "price": "",
-        "image": "https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg",
+        "image": "/images/J.png",
         "rating": 4.9,
         "soldCount": "500+ sold",
         "visible": true
@@ -17,7 +17,7 @@
         "id": 2,
         "name": "L-Shape Bolt",
         "price": "",
-        "image": "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg",
+        "image": "/images/L.png",
         "rating": 4.8,
         "soldCount": "750+ sold",
         "visible": true
@@ -26,7 +26,7 @@
         "id": 3,
         "name": "Plate Type Bolt",
         "price": "",
-        "image": "https://images.pexels.com/photos/162553/keys-workshop-mechanic-tools-162553.jpeg",
+        "image": "/images/Plate.png",
         "rating": 4.7,
         "soldCount": "1000+ sold",
         "visible": true
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "V-Sag Rod",
         "price": "",
-        "image": "https://images.pexels.com/photos/209235/pexels-photo-209235.jpeg",
+        "image": "/images/V.webp",
         "rating": 4.9,
         "soldCount": "400+ sold",
         "visible": true
@@ -44,7 +44,7 @@
         "id": 5,
         "name": "Hill Side Washer",
         "price": "",
-        "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
+        "image": "/images/Hill.png",
         "rating": 4.6,
         "soldCount": "600+ sold",
         "visible": true
@@ -53,7 +53,7 @@
         "id": 6,
         "name": "Brace Rod",
         "price": "",
-        "image": "https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg",
+        "image": "/images/B.png",
         "rating": 4.6,
         "soldCount": "600+ sold",
         "visible": true
