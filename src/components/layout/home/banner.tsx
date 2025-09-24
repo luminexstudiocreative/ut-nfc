@@ -18,7 +18,7 @@ const Banner = () => {
           alt="AIE"
           width={200}
           height={200}
-          className="w-30 h-20 object-contain"
+          className="w-50 h-50 object-contain"
         />
         <div className="flex flex-col">
           <h1 className="text-2xl font-bold text-zinc-800">
