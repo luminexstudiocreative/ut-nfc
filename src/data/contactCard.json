@@ -7,8 +7,8 @@
       {
         "id": "phone",
         "label": "Call Us",
-        "value": "+91 89391 34818",
-        "href": "tel:+918939134818",
+        "value": "+91 98415 11436",
+        "href": "tel:+919841511436",
         "icon": "Phone",
         "bgColor": "bg-green-500",
         "visible": true
@@ -16,8 +16,8 @@
       {
         "id": "whatsapp",
         "label": "WhatsApp",
-        "value": "+91 98416 49633",
-        "href": "https://wa.me/919841649633",
+        "value": "+91 98415 11436",
+        "href": "https://wa.me/9841511436",
         "icon": "MessageCircle",
         "bgColor": "bg-green-600",
         "visible": true
@@ -25,8 +25,8 @@
       {
         "id": "email",
         "label": "Email",
-        "value": "aliasgardeesawala@gmail.com",
-        "href": "mailto:aliasgardeesawala@gmail.com",
+        "value": "universaltools@yahoo.in",
+        "href": "mailto:universaltools@yahoo.in",
         "icon": "Mail",
         "bgColor": "bg-blue-500",
         "visible": true

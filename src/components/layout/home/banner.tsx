@@ -16,17 +16,17 @@ const Banner = () => {
         <Image
           src="/logo.png"
           alt="AIE"
-          width={100}
-          height={100}
+          width={200}
+          height={200}
           className="w-20 h-10 object-contain"
         />
         <div className="flex flex-col">
           <h1 className="text-2xl font-bold text-zinc-800">
-            Ali Idris Enterprises
+            Universal Tools
           </h1>
-          <p className="text-sm text-zinc-600 max-w-sm">
+          {/* <p className="text-sm text-zinc-600 max-w-sm">
             Reliable fasteners of premium quality fasteners
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
