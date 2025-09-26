@@ -48,15 +48,6 @@
         "rating": 4.6,
         "soldCount": "600+ sold",
         "visible": true
-      },
-      {
-        "id": 6,
-        "name": "Brace Rod",
-        "price": "",
-        "image": "/images/B.png",
-        "rating": 4.6,
-        "soldCount": "600+ sold",
-        "visible": true
       }
     ]
   }
