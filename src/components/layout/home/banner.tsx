@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="w-full h-80 xl:h-[300px] relative">
       <Image
-        src="https://images.pexels.com/photos/237997/pexels-photo-237997.jpeg"
+        src="/images/banner.webp"
         alt="banner"
         width={1920}
         height={1080}
