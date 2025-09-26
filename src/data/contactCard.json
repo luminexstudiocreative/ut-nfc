@@ -25,6 +25,15 @@
       {
         "id": "email",
         "label": "Email",
+        "value": "universaltools25@gmail.com",
+        "href": "mailto:universaltools25@gmail.com",
+        "icon": "Mail",
+        "bgColor": "bg-blue-500",
+        "visible": true
+      },
+      {
+        "id": "email",
+        "label": "Email",
         "value": "universaltools@yahoo.in",
         "href": "mailto:universaltools@yahoo.in",
         "icon": "Mail",
