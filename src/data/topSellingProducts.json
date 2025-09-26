@@ -6,45 +6,45 @@
     "products": [
       {
         "id": 1,
-        "name": "J-Shape Bolt",
+        "name": "All Types Of Cutting Tools",
         "price": "",
-        "image": "/images/J.png",
+        "image": "/images/CT.webp",
         "rating": 4.9,
         "soldCount": "500+ sold",
         "visible": true
       },
       {
         "id": 2,
-        "name": "L-Shape Bolt",
+        "name": "All Types Of Fasteners",
         "price": "",
-        "image": "/images/L.png",
+        "image": "/images/F.jpg",
         "rating": 4.8,
         "soldCount": "750+ sold",
         "visible": true
       },
       {
         "id": 3,
-        "name": "Plate Type Bolt",
+        "name": "All Types Of Power Tools",
         "price": "",
-        "image": "/images/Plate.png",
+        "image": "/images/PWT.jpg",
         "rating": 4.7,
         "soldCount": "1000+ sold",
         "visible": true
       },
       {
         "id": 4,
-        "name": "V-Sag Rod",
+        "name": "All Types Of Safety Items",
         "price": "",
-        "image": "/images/V.webp",
+        "image": "/images/S.webp",
         "rating": 4.9,
         "soldCount": "400+ sold",
         "visible": true
       },
       {
         "id": 5,
-        "name": "Hill Side Washer",
+        "name": "All Types Of Paints And Thinner",
         "price": "",
-        "image": "/images/Hill.png",
+        "image": "/images/P.jpg",
         "rating": 4.6,
         "soldCount": "600+ sold",
         "visible": true
